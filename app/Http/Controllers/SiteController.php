@@ -10,8 +10,17 @@ class SiteController extends Controller
      * Display a listing of the resource.
      */
     public function index(){
-        return view('home');
+        return view('site.home');
     }
+
+    public function contato()
+    {
+        return view('site.contato');
+    }
+
+    public function sobre(){
+        return view('site.sobre');
+}
 
     /**
      * Show the form for creating a new resource.
